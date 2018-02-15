@@ -1,0 +1,214 @@
+/*
+Theme Name: Dynamic News - Research Experiences for Undergraduates #0
+Theme URI: http://www.ufl.edu/
+Description:WordPress template for the Research Experiences for Undergraduate Leadership Group, based on Dynamic News Lite.
+Version: 1.0.0
+Author: Steven M. Kobb, University of Florida Dept. of Chemistry
+Author URI: http://chem.ufl.edu/
+Build Date: 2014101300
+Template: dynamic-news-lite
+
+/* =Include main theme styles
+-------------------------------------------------------------- */
+@import url("../dynamic-news-lite/style.css");
+##@import url('library/css/chemistry-menu.css');     /* Institutional header and footer */
+/* =Theme customization starts here */
+/*
+/* =Include main theme styles
+-------------------------------------------------------------- */
+
+/* **** CUSTOM STYLES **** */
+ul, ol {
+/*  top  right bottom  left*/
+margin: 1px 1px 3px -10px
+}
+
+li {
+/*  top  right bottom  left*/
+/* margin: 0px 0px 0px 0px !important;
+padding: 0px 0px 0px 0px !important;*/
+
+}
+.spacedList {
+margin: 1px 1px 20px 0px !important
+}
+
+.site-description, site-description h3 {
+font-size: 28px !important;
+font-weight:600 !important;
+}
+
+.inlineHeading {
+display: inline !important;
+margin-bottom:10px !important;
+padding-bottom:10px !important
+}
+/* Photo Gallery for home page featured students: */
+.image_browser_images_0 {
+position:relative !important;
+text-align:left !important;
+/* width:850px !important; */
+width:100% !important;
+text-align:left;
+/*  top  right bottom  left*/
+}
+.image_browser_image_buttons_conteiner_0 {
+position:relative !important;
+text-align:left !important;
+/* width:850px !important; */
+width:100% !important;
+text-align:left;
+}
+.image_browser_image_buttons_0 {
+position:relative !important;
+text-align:left !important;
+/* width:850px !important; */
+width:100% !important;
+text-align:left;
+}
+
+.bwg_image_browser_image_alt_0 {
+position:relative !important;
+text-align:left !important;
+/* width:850px !important; */
+width:100% !important;
+text-align:left;
+}
+
+.bwg_image_alt_0 {
+/* title */
+clear: none !important;
+font-size: 18px !important;
+font-weight:600 !important;
+display:block !important;
+/* border:1px solid #f0f !important; */
+position:relative !important;
+/* width:700px !important; */
+width:100% !important;
+height:20px !important;
+/*  top  right bottom  left*/
+margin: 0px 0px 0px 10px !important;
+padding: 0px 0px 0px 0px !important;
+float:left !important
+}
+.bwg_image_browser_image_0 {
+/* image */
+/* border:1px solid #0ff !important; */
+clear: none !important;
+position:relative !important;
+width:80px !important;
+height:100px !important;
+margin: 10px 0px 0px 20px !important;
+padding: 0px 0px 0px 0px !important;
+float:left !important
+
+}
+
+.bwg_image_browser_image_desp_0 {
+/* description1 */
+/* border:1px solid #f00 !important; */
+
+position:relative !important;
+/* width:730px !important; */
+width:85% !important;
+font-weight:normal !important;
+clear: none !important;
+display:block !important;
+margin: 0px 0px 0px 0px !important;
+padding: 0px 0px 0px 10px !important;
+float:left !important
+}
+.bwg_image_browser_image_description_0 {
+/* description2 */
+/* border:1px solid #ff0 !important; */
+position:relative !important;
+/* width:730px !important; */
+width:85% !important;
+
+font-weight:normal !important;
+margin: 0px 0px 0px 0px !important;
+padding: 0px 0px 0px 0px !important;
+}
+.bwg_image_browser_image_description_0 h6 {
+margin: 0px 0px 0px 0px !important;
+padding: 10px 0px 5px 0px !important;
+}
+
+.bwg_image_browser_image_alt_0 {
+position:relative !important;
+float:left !important;
+/* width:850px !important; */
+width:100% !important;
+text-align:left !important;
+width:auto
+}
+.image_browser_image_buttons_0 {
+position:relative !important;
+text-align:left !important;
+/* width:850px !important; */
+width:100% !important;
+text-align:left;
+width:auto
+}
+#wrapper, .hfeed {
+min-width:1100px !important;
+}
+#header, #header-wrap {
+height:113px !important;
+padding: 10px 10px 10px 10px !important;
+}
+#header, #header-wrap, #navi-wrap, #mainnav, #mainnav-menu {
+overflow: visible;
+min-width:1000px !important;
+min-height:40px !important;
+margin: 0px 0px 0px 0px !important;
+}
+#navi-wrap, #mainnav, #mainnav-menu {
+padding: 0px 0px 0px 0px !important;
+}
+
+
+#header-wrap {
+border:0px solid #f0f !important;
+}
+
+.menu-item a {
+overflow: visible;
+margin: 0px 0px 0px 0px !important;
+padding: 12px 17px 12px 17px !important;
+}
+.menu-item, .sub-menu, .menu-item ul, .sub-menu li {
+position:relative !important;
+
+visibility: visible !important;
+overflow: visible !important;
+margin: 0px 0px 0px 0px !important;
+padding: 0px 0px 0px 0px !important;
+
+}
+
+.site-title {
+font-size:28px !important;
+}
+
+
+.reulgLogo {
+float:left;
+max-width:700px !important;
+padding-top:13px;
+padding-left:20px;
+padding-right:0px;
+margin: 0px 0px 0px 0px;
+border:0px solid #ff0 !important;
+
+}
+.nsfLogo {
+float:right;
+width:93px;
+height;93px;
+margin: 0px 0px 0px 0px !important;
+padding: 0px 0px 0px 0px !important;
+border:0px solid #0f0 !important;
+
+}
+
